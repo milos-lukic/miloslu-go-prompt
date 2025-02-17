@@ -1,0 +1,26 @@
+name: miloslu-go-prompt
+
+version: 0.1
+
+base: ubuntu@24.04
+
+title: A simple webapp application
+
+summary: A very short one-line summary of the package.
+
+description: |
+  A single sentence that says what the source is, concisely and memorably.
+
+  A paragraph of one to three short sentences, that describe what the package does.
+
+  A third paragraph that explains what need the package meets.
+
+  Finally, a paragraph that describes whom the package is useful for.
+
+platforms:
+  amd64:
+
+parts:
+  miloslu-go-prompt:
+    plugin: nil
+    source: .
